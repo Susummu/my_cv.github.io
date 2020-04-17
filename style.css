@@ -1,0 +1,433 @@
+                     /* GENERALITES*/
+                     
+                     * {
+                         box-sizing: border-box;
+                     }
+                     
+                     body {
+                         margin: 0;
+                         padding: 0;
+                         font-size: 17px;
+                         font-family: Arial, Helvetica, sans-serif;
+                     }
+                     
+                     h2,
+                     .headertitle,
+                     .formation i,
+                     hr {
+                         color: #feca07;
+                     }
+                     
+                     h2 {
+                         text-align: center;
+                         text-transform: uppercase;
+                         background-color: #404040;
+                         margin-top: 0px;
+                         padding-top: 15px;
+                         padding-bottom: 10px;
+                     }
+                     
+                     .contener {
+                         width: 1155px;
+                         height: 1685px;
+                         display: flex;
+                         margin: 0 auto;
+                     }
+                     /* ASIDE */
+                     
+                     .sidebar {
+                         display: flex;
+                         width: 385px;
+                         height: 1685px;
+                         flex-direction: column;
+                         background-color: #feca07;
+                     }
+                     /* PARTIE PHOTO*/
+                     
+                     .photo {
+                         height: 285px;
+                         margin-left: auto;
+                         margin-right: auto;
+                         margin-top: 40px;
+                     }
+                     
+                     .photo img {
+                         border-radius: 50%;
+                     }
+                     /* PARTIE CONTACT */
+                     
+                     .contact {
+                         height: 450px;
+                     }
+                     
+                     .contact ul {
+                         list-style: none;
+                     }
+                     
+                     .contact li {
+                         margin-bottom: 20px;
+                         padding-left: 10px;
+                     }
+                     /* PARTIE A PROPOS DE MOI*/
+                     
+                     .about {
+                         height: 690px;
+                     }
+                     
+                     .about p {
+                         text-align: justify;
+                         padding-left: 50px;
+                         padding-right: 50px;
+                         line-height: 30px;
+                     }
+                     /* PARTIE LOISIR*/
+                     
+                     .loisir {
+                         height: 250px;
+                         width: auto;
+                     }
+                     
+                     .icon i:first-of-type {
+                         padding-left: 60px;
+                         margin-top: 30px;
+                     }
+                     
+                     .icon i {
+                         padding-right: 30px;
+                     }
+                     
+                     .icon i:last-of-type {
+                         padding-right: 0px;
+                     }
+                     /* CONTENU PRINCIPAL */
+                     
+                     main {
+                         border: 1px solid #cfcfcf;
+                         width: 800px;
+                     }
+                     /* PARTIE HEADER*/
+                     
+                     .header {
+                         display: block;
+                         height: 210px;
+                         margin-left: 65px;
+                     }
+                     
+                     .headertitle {
+                         text-transform: uppercase;
+                     }
+                     
+                     .header h1 {
+                         margin-top: 110px;
+                         margin-bottom: 0;
+                         font-size: 65px;
+                     }
+                     
+                     .header h5 {
+                         margin-top: 5px;
+                         font-size: 30px;
+                     }
+                     
+                     .underline {
+                         text-decoration: underline;
+                         text-decoration-color: #feca07;
+                         text-decoration-thickness: 3px;
+                         margin-top: 0;
+                     }
+                     /* PARTIE FORMATION + EXPERIENCE + RECOMMANDATION*/
+                     
+                     .formation {
+                         display: flex;
+                         margin-left: 65px;
+                     }
+                     
+                     .formation h3 {
+                         padding-left: 20px;
+                         text-transform: uppercase;
+                     }
+                     
+                     .line {
+                         display: inline-block;
+                         border: 1px solid #feca07;
+                         width: 696px;
+                         margin-top: 15px;
+                         margin-left: 65px;
+                     }
+                     /* SECTION 1 + 2 */
+                     
+                     .descriptionform {
+                         width: 800px;
+                         height: 350px;
+                         display: flex;
+                     }
+                     
+                     .descriptionform ul {
+                         padding-left: 15px;
+                         margin-top: 15px;
+                     }
+                     
+                     .descriptionformtwo {
+                         width: 800px;
+                         height: 570px;
+                         display: flex;
+                     }
+                     /* PUCES CREES*/
+                     
+                     .firstcercle {
+                         height: 16px;
+                         width: 16px;
+                         background-color: white;
+                         border: 2px solid #feca07;
+                         border-radius: 50%;
+                         margin-left: 65px;
+                         margin-top: 18px;
+                     }
+                     
+                     .secondcircle {
+                         height: 6px;
+                         width: 6px;
+                         background-color: #feca07;
+                         border-radius: 50%;
+                         margin: 3px 3px;
+                     }
+                     
+                     .circlefull {
+                         height: 10px;
+                         width: 10px;
+                         background-color: #feca07;
+                         border-radius: 50%;
+                         margin-left: -30px;
+                         margin-bottom: -15px;
+                     }
+                     /* ENGLOBE TOUS UL H*/
+                     
+                     .blabla {
+                         display: flex;
+                         width: 800px;
+                         line-height: 25px;
+                     }
+                     
+                     .blabla ul {
+                         list-style: none;
+                         height: 40px;
+                         width: 670px;
+                         padding-left: 15px;
+                     }
+                     
+                     .date {
+                         width: 250px;
+                     }
+                     
+                     .title {
+                         margin-top: -50px;
+                     }
+                     
+                     .toptext {
+                         margin-top: -20px;
+                         margin-bottom: 20px;
+                     }
+                     
+                     .texte {
+                         margin-bottom: 45px;
+                     }
+                     
+                     .texte,
+                     .title,
+                     .toptext {
+                         width: 490px;
+                         text-align: justify;
+                         margin-left: 130px;
+                         padding-left: 100px;
+                     }
+                     /* DERNIERE SECTION*/
+                     
+                     .recommandation {
+                         display: flex;
+                         flex-direction: row;
+                         justify-content: space-evenly;
+                     }
+                     
+                     .recommandation ul {
+                         list-style: none;
+                     }
+                     
+                     .endtitle {
+                         text-transform: uppercase;
+                     }
+                     /* 1er RESPONSIVE */
+                     
+                     @media screen and (max-width: 1115px) {
+                         .contener {
+                             width: 100%;
+                             display: block;
+                             padding: 10px 20px;
+                         }
+                         .sidebar {
+                             width: 100%;
+                             display: block;
+                             height: auto;
+                         }
+                         .photo {
+                             text-align: center;
+                             padding-top: 20px;
+                         }
+                         h2 {
+                             text-align: center;
+                         }
+                         .contact ul {
+                             display: flex;
+                             flex-wrap: wrap;
+                             width: 100%;
+                             padding-left: 0;
+                             justify-content: space-evenly;
+                             margin: auto auto;
+                         }
+                         .contact ul li {
+                             text-align: center;
+                         }
+                         .contact ul li:last-of-type {
+                             padding-right: 10px;
+                         }
+                         .about,
+                         .contact,
+                         .loisir {
+                             width: 100%;
+                             height: auto;
+                         }
+                         .about p {
+                             text-align: justify;
+                         }
+                         .icon {
+                             text-align: center;
+                         }
+                         .icon i {
+                             padding-bottom: 25px;
+                         }
+                         .icon i:first-of-type {
+                             padding-left: 0;
+                             margin-top: 0;
+                         }
+                         main {
+                             display: block;
+                             width: 100%;
+                             height: auto;
+                             text-align: center;
+                             margin: 0 auto;
+                         }
+                         .header {
+                             width: 100%;
+                             height: auto;
+                             text-align: center;
+                             margin-left: 0;
+                         }
+                         .header h1 {
+                             margin-top: 100px;
+                         }
+                         .header h5 {
+                             margin-bottom: 75px;
+                         }
+                         .formation {
+                             width: 100%;
+                             display: block;
+                             margin-left: 0;
+                             padding-top: 3px;
+                         }
+                         .formation h3 {
+                             padding-left: 0;
+                         }
+                         .line {
+                             display: block;
+                             width: 100%;
+                             margin-left: 0px;
+                         }
+                         .blabla {
+                             display: block;
+                             width: 100%;
+                             padding-top: 1px;
+                         }
+                         .blabla ul {
+                             width: 100%;
+                         }
+                         .descriptionform,
+                         .descriptionformtwo {
+                             display: block;
+                             width: 100%;
+                         }
+                         .descriptionform ul,
+                         .descriptionformtwo ul {
+                             padding-left: 15px;
+                             margin-top: -18px;
+                         }
+                         .title {
+                             padding-top: 0px;
+                         }
+                         .firstcercle,
+                         .circlefull {
+                             display: block;
+                             margin-left: 20px;
+                         }
+                         #last {
+                             margin-top: 1px;
+                         }
+                     }
+                     /* 2eme RESPONSIVE*/
+                     
+                     @media screen and (max-width: 700px) {
+                         .line {
+                             display: block;
+                             width: 100%;
+                             margin-bottom: 25px;
+                             margin-left: 0px;
+                         }
+                         main {
+                             text-align: center;
+                         }
+                         .firstcercle,
+                         .circlefull {
+                             display: none;
+                         }
+                         .blabla {
+                             display: block;
+                         }
+                         .blabla ul {
+                             height: auto;
+                             width: 100%;
+                             padding-left: 0;
+                             margin-top: -18px;
+                         }
+                         .descriptionform,
+                         .descriptionformtwo {
+                             display: block;
+                             width: 100%;
+                             height: auto;
+                         }
+                         .global {
+                             display: block;
+                         }
+                         .global1 {
+                             width: 100%;
+                         }
+                         .date {
+                             width: 100%;
+                             margin-bottom: 50px;
+                         }
+                         .global1 p {
+                             overflow-wrap: break-word;
+                         }
+                         .title,
+                         .toptext,
+                         .texte {
+                             width: 100%;
+                             padding-left: 10px;
+                             padding-right: 15px;
+                             margin-left: 0;
+                             text-align: center;
+                         }
+                         .recommandation1 ul {
+                             padding-left: 0;
+                         }
+                         .recommandation1 ul,
+                         .recommandation2 ul {
+                             margin-top: 0;
+                         }
+                     }
