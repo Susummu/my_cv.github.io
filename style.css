@@ -144,13 +144,14 @@
                      .formation h3 {
                          padding-left: 20px;
                          text-transform: uppercase;
+                         margin-bottom: 12px;
                      }
                      
                      .line {
                          display: inline-block;
                          border: 1px solid #feca07;
                          width: 696px;
-                         margin-top: 15px;
+                         margin-top: 0;
                          margin-left: 65px;
                      }
                      /* SECTION 1 + 2 */
@@ -239,12 +240,22 @@
                          margin-left: 130px;
                          padding-left: 100px;
                      }
+
+                     .toptext {
+                         margin-bottom: 0;
+                     }
+
+                     .texte {
+                         margin-top: 0;
+                     }
                      /* DERNIERE SECTION*/
                      
                      .recommandation {
                          display: flex;
                          flex-direction: row;
-                         justify-content: space-evenly;
+                         justify-content: space-between;
+                         padding-left: 56px;
+                         padding-right: 84px;
                      }
                      
                      .recommandation ul {
@@ -260,7 +271,7 @@
                          .contener {
                              width: 100%;
                              display: block;
-                             padding: 10px 20px;
+                             padding: 0 0;
                          }
                          .sidebar {
                              width: 100%;
@@ -270,6 +281,7 @@
                          .photo {
                              text-align: center;
                              padding-top: 20px;
+                             margin-top: 0;
                          }
                          h2 {
                              text-align: center;
@@ -369,6 +381,11 @@
                          #last {
                              margin-top: 1px;
                          }
+
+                         .recommandation{
+                             display: flex;
+                             justify-content: space-around;
+                         }
                      }
                      /* 2eme RESPONSIVE*/
                      
@@ -423,11 +440,17 @@
                              margin-left: 0;
                              text-align: center;
                          }
+                         .recommandation {
+                             display: flex;
+                             flex-direction: column;
+                         }
+
                          .recommandation1 ul {
                              padding-left: 0;
                          }
                          .recommandation1 ul,
                          .recommandation2 ul {
                              margin-top: 0;
+                             padding-left: 0;
                          }
                      }
