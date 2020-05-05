@@ -7,3 +7,5 @@
 # Modification du code CSS sur la partie description et la recommandation.
 
 # Modification de la sémentique + erreur HTML via W3C
+
+# Mise en place du lien Skype fonctionnel
